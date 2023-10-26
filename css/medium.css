@@ -1,0 +1,379 @@
+@media only screen and (min-width:768px) and (max-width:992px){
+    header{
+        height:60px;
+        background-color:black;
+        display: flex;
+    }
+    .headerleft{
+        width: 50%;
+    }
+    .headerright{
+        width:50%;
+        text-align: right;
+        
+    }
+    header img{
+        margin-top:5px;
+        margin-left: 20px;
+    }
+    .buynow{
+        
+        background-color: rgb(118, 175, 25);
+        color:white;
+        padding:10px 30px;
+        border-radius: 7px;
+        text-decoration: none;
+        bottom:-18px;
+        position: relative;
+        margin-right: 20px;
+        
+    }
+
+    .header2{
+        padding: 50px 50px;
+        display:flex;
+        flex-wrap: wrap;
+        
+        height: 40px;
+        
+        
+        
+        
+        
+    }
+    .header2img{
+        
+        width:20%;
+    }
+    .header2ul{
+        width:75%;
+        
+        text-align: right;
+    }
+    .header2i{
+        width:5%;
+        
+        text-align: right;
+    }
+    .largeul{
+        display: none;
+    }
+   
+    
+    .smallul{
+        position: relative;
+        bottom:0px;
+        margin-right: 10px;
+        
+        
+        
+    }
+    .smallul li{
+        padding-top: 10px;
+        background-color: rgba(9, 9, 9,0.5);
+        display: none;
+        text-align: left;
+        
+    }
+    .smallul li a{
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+        text-align: left;
+        
+
+    }
+    .smallul li:hover{
+        background-color: rgba(16, 16, 16,0.8);
+    }
+    .smallul:hover li {
+        display: block;
+
+    }
+    
+    .slider{
+        width:100%;
+        height:500px;
+        background-image: url('../images/f1.jpg');
+        background-size: cover;
+        padding: 50px;
+    }
+    .slider1{
+        width:50%;
+    }
+    .slider1 h1{
+        font-family: 'Satisfy', cursive;
+        color: red;
+        font-size: 80px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .slider1 p{
+        margin-bottom: 50px;
+    }
+    .slider1 a{
+        text-decoration: none;
+        color:black;
+        padding:10px 30px;
+        border:1px solid black;
+        border-radius: 30px;
+    }
+
+
+    .three-image-parent{
+        padding:30px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .threeimage{
+        width:48%;
+        margin:0.5%;
+        height:250px;
+
+    }
+    .threeimage1 {
+        background-image: url('../images/banner-01.webp');
+        background-size: cover;
+    }
+    .threeimage2 {
+        background-image: url('../images/banner-02.webp');
+        background-size: cover;
+    }
+    .threeimage3 {
+        background-image: url('../images/banner-03.webp');
+        background-size: cover;
+    }
+
+    .threeimage div{
+        width:60%;
+        padding:30px 30px;
+        
+        
+    }
+    .threeimage h3{
+        font-weight: 700;
+    }
+    .redheading{
+        color: brown;
+    }
+    .featuredparent{
+        padding: 0px 60px;
+        display: flex;
+    }
+    .featured1{
+        width:40%;
+    }
+    .featured1 h4{
+        color: rgb(92, 89, 89);
+        font-weight: 700;
+    }
+    .featured2{
+        width:60%;
+        text-align:right;
+    }
+    .featured2 h4{
+        color: rgb(158, 154, 154);
+        font-weight: 700;
+    }
+    .redfeatured{
+        color:red;
+    }
+    .redhr{
+        
+        border:1px solid red;
+    }
+    .slider1 a:hover{
+        background-color:rgb(241, 97, 121);
+        border:none;
+    }
+
+    .fourtop-parent{
+        padding:20px 60px;
+        display:flex;
+        flex-wrap: wrap;
+       
+    }
+    .fourtop{
+        width:48%;
+        margin:1%;
+        border: 1px solid rgb(222, 220, 220);
+        
+    }
+    .fourtop img{
+        width:100%;
+    }
+    .fourtopslider{
+        width:100%;
+        height:30px;
+        background-color: rgba(255, 192, 203,0.8);
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        position: relative;
+        bottom:0px;
+    }
+    .fourtop:hover .fourtopslider{
+        position: relative;
+        bottom: 30px;
+        opacity:1;
+        transition: 0.5s;
+    }
+    .fourtoptext{
+        padding:0px 20px 20px 20px;
+    }
+    .fourtoptext p{
+        color:red;
+    }
+
+
+    .best-product-parent{
+        padding:0px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .best-product-1{
+        width:48.5%;
+        background-image:url('../images/banner-04.webp');
+        height:500px;
+        background-size: cover;
+        margin:0.66%;
+        padding:150px 200px 150px 20px
+    }
+    .best-product-1 h2{
+        color:rgb(165, 108, 42)
+    }
+    .best-product-2{
+        width:48.5%;
+        margin:0.66%;
+        
+        height:500px;
+    }
+    .variableproduct-parent{
+        width:100%;
+        height:153.33px;
+        margin-bottom: 20px;
+        border:1px solid rgb(237, 232, 232);
+       
+        display: flex;
+    }
+    .variable-parent3{
+        margin-bottom: 0px;
+    }
+    .variablechild1{
+        width:35%;
+        height:100%;
+    }
+    .variablechild1 img{
+        width:100%;
+        height:100%;
+
+    }
+    .variablechild2{
+        width:65%;
+        height:100%;
+        padding:40px 0px 0px 20px;
+    
+    }
+    .variablechild2 h2{
+        color: rgb(74, 71, 71);
+        font-size: 20px;
+        
+    }
+    .variablechild2 p{
+        color:red;
+    }
+    .variablechild2 p del{
+        font-size: 12px;
+        color: grey;
+    }
+    .brand-parent{
+        padding: 0px 60px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brandparent1{
+        background-color: rgb(181, 181, 181);
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .brand1{
+        width: 20%;
+        height: 150px;
+        
+        display: grid;
+        place-items: center;
+        
+    }
+    .brand1 img{
+        width:70%;
+    }
+    .footer-lanes-parent{
+        padding:20px 60px 0px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(181, 181, 181);
+
+    }
+    .footer-lanes-parent hr{
+        border:1px solid black;
+        width:100%;
+        margin-top: 50px;
+    }
+    .footer-lanes{
+        padding:15px;
+        width:33.333%;
+        
+    }
+    .footer-lanes ul{
+        margin: 0px;
+        padding:0px;
+        margin-top: 30px;
+
+    }
+    .footer-lanes ul li{
+        margin-top: 20px;
+    }
+    .footer-lanes ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer-lanes ul li a:hover{
+        color:red;
+    }
+    .footer-lanes img{
+        width:60%;
+    }
+    .footertags-parent{
+        padding: 30px 60px;
+        background-color: rgb(181, 181, 181);
+        text-align: center;
+        word-break: break-all;
+
+    }
+    .footertags-parent span{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .footertags-parent a{
+        text-decoration: none;
+        color: black;
+    }
+    .footertags-parent a:hover{
+        color:red;
+
+    }
+    .footertags-parent hr{
+        border:1px solid black;
+        margin-top: 30px;
+    }
+    .copyright{
+        padding: 0px 60px 30px 60px;
+        text-align: center;
+        background-color: rgb(181, 181, 181);
+    }
+}
