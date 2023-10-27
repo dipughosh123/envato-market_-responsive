@@ -284,7 +284,8 @@
         flex-wrap: wrap;
     }
     .brandparent1{
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
+
         display: flex;
         flex-wrap: wrap;
         width:100%;
@@ -306,7 +307,8 @@
         padding:20px 60px 0px 60px;
         display: flex;
         flex-wrap: wrap;
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
+
 
     }
     .footer-lanes-parent hr{
@@ -340,7 +342,8 @@
     }
     .footertags-parent{
         padding: 30px 60px;
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
+
         text-align: center;
         word-break: break-all;
 
@@ -364,7 +367,8 @@
     .copyright{
         padding: 0px 60px 30px 60px;
         text-align: center;
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
+
 
     }
     

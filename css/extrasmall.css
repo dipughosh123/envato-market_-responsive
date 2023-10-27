@@ -17,7 +17,7 @@
         margin-top:5px;
         margin-left: 10px;
         width:150px;
-        margin-top: 10px;
+        margin-top: 14px;
     }
     .buynow{
         
@@ -309,7 +309,7 @@
         
     }
     .brandparent1{
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
         display: flex;
         flex-wrap: wrap;
         width:100%;
@@ -329,7 +329,8 @@
         padding:20px 60px 0px 20px;
         display: flex;
         flex-wrap: wrap;
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
+
 
     }
     .footer-lanes-parent hr{
@@ -363,7 +364,8 @@
     }
     .footertags-parent{
         padding: 20px 20px;
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
+
         text-align: center;
         word-break: break-all;
 
@@ -387,7 +389,8 @@
     .copyright{
         padding: 0px 20px 20px 20px;
         text-align: center;
-        background-color: rgb(181, 181, 181);
+        background-color: rgb(235, 230, 230);
+
     }
     
 
